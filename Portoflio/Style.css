@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(60, 0, 0);
+    color: white;
+}
+
+#foto{
+    width: 60px;
+    height: 80px;
+}
+
+#logo{
+    width: 40px;
+    height: 40px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenue{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:row;   
+}
+
+.subvideo{
+    margin:50px;
+}
+
+footer{
+    color:white;
+    display: flex;
+    align-items: center;
+    /* position:fixed; */
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    gap: 20px;
+}
+
+footer div{
+    text-align: center;
+    flex: 1;
+}
